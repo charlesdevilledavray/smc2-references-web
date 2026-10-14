@@ -1,0 +1,7 @@
+{
+  "supabase_url": "https://ahaywdlttazavjcwlcaq.supabase.co",
+  "supabase_anon_key": "sb_publishable_XAFtaxHK9t1FGUAorSZqYA_HK4j62dd",
+  "allowed_email_domain": "smc2-construction.com",
+  "auth_redirect": "com.smc2.smc2references://login-callback",
+  "tile_url": "https://tile.openstreetmap.org/{z}/{x}/{y}.png"
+}
