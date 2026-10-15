@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SMC2 Références — Confidentialité</title>
+<link rel="icon" type="image/png" href="favicon.png">
+<style>
+  body { margin: 0; background: #f5f5f6; color: #1a1a1a; font: 16px/1.6 'Segoe UI', Roboto, Arial, sans-serif; }
+  header { background: #fff; border-bottom: 3px solid #de2221; padding: 16px 24px; }
+  header h1 { margin: 0; font-size: 22px; }
+  header p { margin: 4px 0 0; color: #58595b; font-size: 14px; }
+  main { max-width: 820px; margin: 0 auto; padding: 8px 16px 48px; }
+  h2 { color: #de2221; font-size: 18px; margin: 28px 0 8px; }
+  li { margin: 4px 0; }
+  .version { float: right; font-size: 12px; color: #58595b; }
+</style>
+</head>
+<body>
+<header>
+  <span class="version">v0.3-261015</span>
+  <h1>Règles de confidentialité — SMC2 Références</h1>
+  <p>Application interne de la société SMC2 (Mornant, France), réservée à ses collaborateurs. Mise à jour : 15/10/2026.</p>
+</header>
+<main>
+  <h2>1. Objet de l'application</h2>
+  <p>SMC2 Références permet aux collaborateurs de SMC2 de consulter les bâtiments réalisés par
+  l'entreprise (carte, fiches projets, photos, plans) et de produire des fiches de références.
+  Elle n'est accessible qu'avec un compte Google professionnel du domaine smc2-construction.com.</p>
+
+  <h2>2. Données traitées</h2>
+  <ul>
+    <li><strong>Identité du compte</strong> : adresse e-mail et nom du compte Google professionnel,
+      pour la connexion, le contrôle du domaine et le rôle de l'utilisateur (lecture, édition).</li>
+    <li><strong>Autorisation d'accès au Google Drive de SMC2</strong> (lecture seule) : conservée
+      de façon chiffrée sur le serveur de l'application pour afficher les photos et plans des
+      projets avec les droits de l'utilisateur, sans reconnexion répétée.</li>
+    <li><strong>Modifications saisies</strong> par les éditeurs sur les fiches (avec l'adresse e-mail
+      de l'auteur et la date), pour l'historique des modifications.</li>
+    <li><strong>Position de l'appareil</strong> : utilisée uniquement sur l'appareil, et seulement si
+      l'utilisateur l'autorise, pour centrer la carte et trier les références par distance. Elle
+      n'est ni transmise ni conservée.</li>
+  </ul>
+  <p>L'application ne contient ni publicité, ni outil de mesure d'audience, ni identifiant publicitaire,
+  et ne vend ni ne partage aucune donnée avec des tiers.</p>
+
+  <h2>3. Hébergement et sécurité</h2>
+  <p>Les données sont hébergées par Supabase (base de données et fonctions serveur) et les
+  documents restent sur le Google Drive de SMC2. Toutes les communications sont chiffrées (HTTPS).
+  L'accès aux données est limité par des règles de sécurité côté serveur aux seuls comptes SMC2.</p>
+
+  <h2>4. Durée de conservation</h2>
+  <p>Les données de compte sont conservées tant que le collaborateur utilise l'application.
+  L'autorisation d'accès au Drive est supprimée à la déconnexion (Plus &gt; Se déconnecter) ou
+  sur simple demande.</p>
+
+  <h2>5. Vos droits</h2>
+  <p>Conformément au RGPD, vous pouvez demander l'accès, la rectification ou la suppression de vos
+  données en écrivant à <a href="mailto:contact@smc2-construction.com">contact@smc2-construction.com</a>.</p>
+</main>
+</body>
+</html>
